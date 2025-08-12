@@ -3,6 +3,7 @@ Cara menggunakan
    python mass_download.py -i links.txt -o <Folder destination> --remote gdrive
 
 Pastikan udah ada rclone
+
 1️⃣ Install rclone & masukin ke PATH
 
   Download rclone untuk Windows:
@@ -18,4 +19,5 @@ Pastikan udah ada rclone
 
         Edit Path → tambahkan folder tempat rclone.exe.
 
-Buka PowerShell baru (biar PATH ke-refresh) → cek: rclone version
+Buka PowerShell baru (biar PATH ke-refresh) → cek: 
+rclone version
