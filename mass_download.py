@@ -10,7 +10,7 @@ from typing import Optional
 
 import requests
 
-# ==== Regex dasar untuk parsing URL Google Drive ====
+# ==== Regex dasar untuk parsing URL GDrive ====
 RX_FOLDER_ID = re.compile(r"drive\.google\.com/drive/folders/([^/?#]+)")
 RX_FILE_ID   = re.compile(r"drive\.google\.com/file/d/([^/?#]+)")
 RX_RESOURCEKEY = re.compile(r"[?&]resourcekey=([^&#]+)", re.IGNORECASE)
